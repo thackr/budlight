@@ -1,7 +1,11 @@
 [package]
 name = "budlight"
 version = "0.1.0"
+description = "custom minimal GPT copilot implementation for more control over AI code suggestions."
+readme = "README.md"
 edition = "2021"
+exclude = [".github", "*.log", "Dockerfile"]
+keywords = ["ai", "chat-gpt", "tui", "terminal", "utility", "copilot", "gpt", "llm"]
 
 [lints.rust]
 unsafe_code = "forbid"
