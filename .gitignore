@@ -23,5 +23,6 @@ Cargo.lock
 /target
 
 # -- Rust
-target/
+target
+*.log
 !.cargo/
